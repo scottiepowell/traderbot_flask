@@ -3,3 +3,11 @@
     { "source": "/(.*)", "destination": "/api/index" }
   ]
 }
+{
+  "crons": [
+    {
+      "path": "/run-colab",
+      "schedule": "0 20 * * *"
+    }
+  ]
+}
